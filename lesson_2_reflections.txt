@@ -9,5 +9,7 @@ Staging area is an intermediate step before commits are made to the repository f
 The value this brings in is a flecibility to define what files should be part of a specic commit and what can be part of another commit in the same working directory
 
 - How to check the delta between Working area and the Staging area
-Use git diff (with no commit ids)
+Use "git diff" (with no commit ids)
 
+- How to check the delta between Staging area & Repository
+Use "git diff --staged"
