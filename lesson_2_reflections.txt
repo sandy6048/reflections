@@ -1,0 +1,5 @@
+- What happens when you initialize a repository? Why do you need to do it?
+This will convert the normal directory into a git repository. Once this  is done, we can find a .git hidden directory created and can be seen only when ls -a is used on that repo
+
+- Command to add file to the git repo's staging area
+git add

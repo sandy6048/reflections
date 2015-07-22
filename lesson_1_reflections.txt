@@ -1,0 +1,42 @@
+- How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was very easy to pint point the differences using FC (file compare) tool.
+
+- How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+This would help me in identifying the differences between each of these versions or between any particular revisions that I would want to compare. 
+
+- git log: Shows the history of the commits and commit metadata over a file
+
+- git diff (commit x) (commit y): Shows diff between the commits
+
+- What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Manual commits allows the coder to choose when to commit based on associating a logical sense to each commit ie., version of files. Auto save of changes might not always give a logical sense to each of the versions
+
+- To quit Git log, use q
+
+- How can you use the commands git log and git diff to view the history of files?
+
+git log shows the whole history of the repository/file, meaning all commit info. And git diff will present the delta between two commits on the same repository (can have multiple files in same repo). To quit from git log and git diff, just enter cbaracter "q" in the git bash
+
+- Clone, copies an existing repository and places it locally on a machine
+
+- git checkout <commit id> -> to go a specific commit ie., set it as HEAD
+
+- How might using version control make you more confident to make changes that could break something?
+
+Gives the freedom to the coder, as he/she would know that there is a way to get to the working piece of code somehow. Fear of breaking it slide down, helps exploration in making code better
+
+- To initiate a git repository ie., to convert a normal directory into a git repository
+git init <directory name>
+
+- To identify whether a directory is a got repo or not
+la -a -> if out shows .git as one of the contents, then its a git repo
+
+- When you initialize the repository (git init <dir name>), Git doesn’t create any commits for you. You’ll have to create the first commit yourself.
+
+- "Commit" is simply a snapshot of the Git Repository; so each commit gives the snapshot of the repo at that commit instance
+
+- How to get the status of the git repo?
+"git status" will give the current status of the repo. Gives info on what are the commits available, which files are tracked or not tracked etc.,
