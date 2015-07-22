@@ -13,3 +13,6 @@ Use "git diff" (with no commit ids)
 
 - How to check the delta between Staging area & Repository
 Use "git diff --staged"
+
+- To revert the changes made in the working repository which you dont want to put to Staging or repo
+Use "git reset --hard"
