@@ -27,4 +27,28 @@ Use "git reset --hard"
 
 - "git branch <branch name>" will create a new branch named <branch name>
 
+- git checkout <branch name>, will switch the branch to <branch name> from "master"
+
+- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help especially to keep the master safe and do experiments on the code, but in a diferent temorary branch
+
+master branch -> production branch where everything works perfect
+development branches -> to try out new features or bug fixing and then if all is fine then merge them to the master branch to get those new features or bug fixes into the production env via master branch
+
+
+- git log --graph --oneline <branch-name1> <branch-name2> will show the graph of the commit history comparision between different brabches
+
+- How do the diagrams help you visualize the branch structure?
+This helps in understanding how the commits and branches are linked. To not lose the history of any commits, its advisable to create branches before checoing out an old commit and doing new work on top of it (NOTE: if you checkout the most latest commit and work on it, then the commit hostory is not lost, because the commit will still be linke dto the head of the current branch you have been working on)
+
+- git merge <branch-name 1> <branch-name 2> -> will merge coins branch into master branch and combine the commit into master's commit history
+Eg: git merge master coins
+
+- git show <commit ID> will show the diff between the current commit and its parent commit
+
+- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is sometimes not that good as it may downplay some important changes to certain conflict files.
+
 
