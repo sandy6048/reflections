@@ -25,4 +25,6 @@ Use "git reset --hard"
 
 - "git branch" to create and view branches of a git repo 
 
+- "git branch <branch name>" will create a new branch named <branch name>
+
 
