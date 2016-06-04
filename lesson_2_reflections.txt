@@ -11,6 +11,10 @@ The value this brings in is a flexibility to define what files should be part of
 - How to check the delta between Working area and the Staging area
 Use "git diff" (with no commit ids)
 
+"git diff <commit1> <commit 2>" -> shows delta between these commits in the repo
+
+"git diff" -> shows the delta betwene the files in working directory and staging area
+
 - How to check the delta between Staging area & Repository
 Use "git diff --staged"
 
