@@ -23,4 +23,6 @@ Use "git reset --hard"
 
 - "git checkout master" will move the HEAD to the master (to the latest commit from the current checkout old commit)
 
+- "git branch" to create and view branches of a git repo 
+
 
