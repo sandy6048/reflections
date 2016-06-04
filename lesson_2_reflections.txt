@@ -21,4 +21,6 @@ Use "git diff --staged"
 - To revert the changes made in the working directory or satging repo and not yet in the Git Repo
 Use "git reset --hard"
 
+- "git checkout master" will move the HEAD to the master (to the latest commit from the current checkout old commit)
+
 
