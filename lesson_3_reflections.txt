@@ -2,10 +2,17 @@
 
 - Instead of pushing individual commits, its advisble to push the whole branch so that whole commit history is transferred to GitHub repo in one shot
 
-- "git remote" command to show the kist of remote repositories
+- "git remote" command to show the list of remote repositories
 
 - "git remote add <remote repo name> URL" will create the remote repo. 
 Eg: git remote add origin https://github.com/sandy6048/reflections.git
 
+(This is run when you are in a particular repo, so above command links that local repo into the provided remote repo)
+
 - "git push <remote repo name> <local branch>" - will push the local branch commit history and files into remote repo
 Eg: git push origin master
+
+- "git pull <remote repo name> <local branch>" - will pull all the remote repo commits into the local repo
+Eg: git pull origin master
+
+- "Fork" on GitHub is simlar to "clone" remote repository into local computers. Forking is to replicate a GitHub repository into a new GitHub repo
