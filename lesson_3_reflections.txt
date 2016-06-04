@@ -1,0 +1,11 @@
+- Remote repository or remotes, are the repositories that are used to sync the commit history to and from GitHub repos
+
+- Instead of pushing individual commits, its advisble to push the whole branch so that whole commit history is transferred to GitHub repo in one shot
+
+- "git remote" command to show the kist of remote repositories
+
+- "git remote add <remote repo name> URL" will create the remote repo. 
+Eg: git remote add origin https://github.com/sandy6048/reflections.git
+
+- "git push <remote repo name> <local branch>" - will push the local branch commit history and files into remote repo
+Eg: git push origin master
